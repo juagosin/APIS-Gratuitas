@@ -103,6 +103,10 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 | Open Data BCN API | Gobierno y datos abiertos | Publica | Si | Si | https://opendata-ajuntament.barcelona.cat/es/desenvolupadors | Portal oficial para desarrolladores del Ayuntamiento de Barcelona. Explica la API CKAN del catalogo, consultas sobre recursos CSV y limites de uso. Algunos recursos pueden requerir token. | Verificada |
 | OpenAPI de Eustat | Estadistica | Publica | Si | Si | https://es.eustat.eus/openapi/openapi.html | Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practicar consumo de OpenAPI y datos estadisticos territoriales. | Verificada |
 | API REST del BOPV | Legal | Publica | Si | Si | https://opendata.euskadi.eus/api-bopv/?api=bopv | API oficial de Open Data Euskadi para consultar actos administrativos del Boletin Oficial del Pais Vasco. Util para ejercicios de busqueda y datos normativos regionales. | Verificada |
+| NAP Transporte API | Transporte | API key | Si | Si | https://nap.transportes.gob.es/api | API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swagger y permite consultar datasets, operadores, coberturas y recursos de movilidad. | Verificada |
+| APIs de Open Data Euskadi | Gobierno y datos abiertos | Publica / Registro | Si | Si | https://opendata.euskadi.eus/apis/-/apis-open-data/ | Hub oficial con APIs REST de trafico, agua, aire, directorio, subvenciones, calendario laboral y mas. Algunas, como Euskalmet, requieren registro gratuito. | Verificada |
+| APIs del Portal de Datos Abiertos de la Junta de Andalucia | Gobierno y datos abiertos | Publica | Si | Si | https://www.juntadeandalucia.es/datosabiertos/portal/aplicaciones/buscador-apis | Catalogo oficial con multiples APIs en OpenAPI 3.0.2 sobre empleo publico, inmuebles, organigrama, noticias y otros datos administrativos. | Verificada |
+| API CKAN de Dades Obertes GVA | Gobierno y datos abiertos | Publica | Si | Si | https://dadesobertes.gva.es/api/3/action/package_search?rows=1 | API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util para practicar catalogos CKAN, metadatos y descubrimiento de recursos geograficos y administrativos. | Verificada |
 | SIGPAC | Geografia | Publica | Si | Si | https://sigpac.mapa.gob.es/fega/visor/ | El visor oficial expone servicios reutilizables claros: configuracion publica en `https://sigpac.mapa.gob.es/fega/visor/cfg/cfg.js`, WMTS en `https://sigpac.mapa.gob.es/sdg/wmts?service=WMTS&request=GetCapabilities` y consultas JSON en `https://sigpac.mapa.gob.es/fega/serviciosvisorsigpac/query/cod_usosigpac`. | Verificada |
 
 ### Latinoamerica
@@ -115,9 +119,12 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 | Dataset COVID-19 Colombia | Colombia | Salud | Publica | Si | Si | https://www.datos.gov.co/resource/gt2j-8ykr.json?$limit=1 | Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar paginacion, filtros y limpieza de datos. | Verificada |
 | GeoRef Argentina API | Argentina | Geografia | Publica | Si | Si | https://datosgobar.github.io/georef-ar-api/ | API oficial para provincias, municipios, localidades y normalizacion geografica. Muy buena para autocompletado, filtros y mapas. | Verificada |
 | API de Series de Tiempo de Argentina | Argentina | Estadistica | Publica | Si | Si | https://datosgobar.github.io/series-tiempo-ar-api/ | API oficial para consultar indicadores publicos en `json` o `csv`, con filtros temporales, busqueda y transformaciones. Muy util para series temporales y analisis. | Verificada |
+| USIG Normalizador de Direcciones | Argentina | Geografia | Publica | Si | Si | https://servicios.usig.buenosaires.gob.ar/normalizar/ | Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direcciones y geocodificar resultados basicos en CABA y AMBA. Muy util para buscadores y mapas. | Verificada |
 | API CMF Bancos | Chile | Finanzas | Publica | Si | Si | https://api.cmfchile.cl/ | API de la Comision para el Mercado Financiero de Chile. Ofrece acceso a datos bancarios y reportes historicos. | Verificada |
 | Sismos Chile (Gael Cloud) | Chile | Utilidades | Publica | Si | No | https://api.gael.cloud/general/public/sismos | Endpoint publico con documentacion en castellano y limite claro de uso. Util para practicar consumo de eventos sismicos recientes. | Verificada |
+| Servicio Web de Indicadores Economicos BCCR | Costa Rica | Economia y finanzas | Publica | Si | Si | https://www.bccr.fi.cr/indicadores-economicos/servicio-web | Servicio oficial del Banco Central de Costa Rica para consultar indicadores economicos. Util para automatizacion de consultas y series de datos financieros. | Verificada |
 | Datos Abiertos Ecuador | Ecuador | Gobierno y datos abiertos | Publica | Si | Si | https://www.datosabiertos.gob.ec/ | Portal oficial en castellano con catalogo amplio y recursos reutilizables en formatos abiertos como `csv`, `ods` o `xlsx`. Util para catalogos, ETL y limpieza de datos. | Verificada |
+| BCRPData API para Desarrolladores | Peru | Economia y finanzas | Publica | Si | Si | https://estadisticas.bcrp.gob.pe/estadisticas/series/ayuda/api | API oficial del Banco Central de Reserva del Peru. Permite consultar series estadisticas en `json`, `xml`, `csv` y otros formatos, con filtros por periodo e idioma. | Verificada |
 | Servicio web Tipo de Cambio BANGUAT | Guatemala | Economia y finanzas | Publica | Si | Si | https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?WSDL | Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de cambio del dia, rangos y monedas. Muy util para practicar XML y servicios SOAP. | Verificada |
 | Datos Abiertos de Panama | Panama | Gobierno y datos abiertos | Publica | Si | Si | https://www.datosabiertos.gob.pa/ | Portal oficial con datos abiertos de multiples instituciones y formatos reutilizables. Bueno para practicar catalogos, filtros y procesamiento de datasets publicos. | Verificada |
 | Datos.gov.py | Paraguay | Gobierno y datos abiertos | Publica | Si | Si | https://www.datos.gov.py/ | Portal oficial de Paraguay con datasets por temas y guias de uso. Util para practicar descubrimiento de datos, catalogos y consumo de recursos publicos. | Verificada |
@@ -163,16 +170,19 @@ print(data)
 - Montar un buscador juridico con la API del BOE.
 - Graficar tipos de cambio o tasas de interes con Banxico.
 - Construir visualizaciones estadisticas con INE o Eustat.
+- Explorar catalogos y recursos de transporte con el NAP de Transporte.
 - Crear un comparador de gasolineras por zona y precio.
 - Mostrar terremotos recientes en un mapa con datos del IGN.
 - Crear un buscador geografico con GeoRef Argentina.
 - Explorar series historicas de indicadores con la API de Series de Tiempo de Argentina.
+- Normalizar direcciones y puntos de interes con USIG.
 - Explorar datos urbanos y equipamientos con Zaragoza o Barcelona.
 - Resolver direcciones y coordenadas con CartoCiudad.
 - Descubrir capas y servicios geoespaciales con IDEE.
 - Explorar indicadores de energia con eSIOS.
 - Montar ejercicios de limpieza y visualizacion con datasets de Colombia.
 - Practicar tablas, filtros y series temporales con INEGI y CMF.
+- Consultar indicadores macroeconomicos con BCRP o BCCR.
 - Practicar integracion SOAP y XML con el servicio de tipo de cambio de BANGUAT.
 
 ## Categorias previstas
