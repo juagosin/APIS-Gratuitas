@@ -94,6 +94,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Transporte](#transporte-espana)
 - [Energia](#energia-espana)
 - [Estadistica](#estadistica-espana)
+- [Cultura](#cultura-espana)
 - [Legal](#legal-espana)
 - [Geografia](#geografia-espana)
 
@@ -102,6 +103,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-latinoamerica)
 - [Economia y finanzas](#economia-y-finanzas-latinoamerica)
 - [Estadistica](#estadistica-latinoamerica)
+- [Cultura](#cultura-latinoamerica)
 - [Salud](#salud-latinoamerica)
 - [Geografia](#geografia-latinoamerica)
 - [Utilidades](#utilidades-latinoamerica)
@@ -177,6 +179,27 @@ Portal oficial del Ayuntamiento de Bilbao con catalogo reutilizable y recursos e
 
 Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy util para datos urbanos, demografia, callejero y capas geograficas.
 
+### Portal de datos abiertos del Gobierno de Canarias
+
+- URL: `https://datos.canarias.es/catalogos/general/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial con CKAN, seccion de API y miles de recursos en `CSV`, `JSON`, `XML`, `WMS` y otros formatos. Muy util para catalogos, filtros y reutilizacion de datos sectoriales.
+
+### Abert@s
+
+- URL: `https://abertos.xunta.gal/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de la Xunta de Galicia con catalogo reutilizable y al menos servicios REST claros como transporte publico por carretera. Muy util para datos territoriales, movilidad y recursos sectoriales.
+
+### Datos Abiertos Ayuntamiento de Malaga
+
+- URL: `https://datosabiertos.malaga.eu/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial basado en CKAN con gran volumen de datos municipales sobre cartografia, movilidad, medio ambiente y servicios urbanos. Muy util para catalogos y datos urbanos.
+
 ---
 
 ### 🌦️ Meteorologia (España)
@@ -187,6 +210,13 @@ Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy
 ![Acceso: API key](https://img.shields.io/badge/acceso-API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y consumo de datos meteorologicos.
+
+### Portus / Oceanografia de Puertos del Estado
+
+- URL: `https://www.puertos.es/es-es/oceanografia/Paginas/portus.aspx`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Servicio institucional abierto con datos y predicciones oceano-meteorologicas del medio marino. Muy util para series temporales, mapas y analisis ambientales.
 
 ---
 
@@ -241,6 +271,38 @@ El INE ofrece API JSON y documentacion OpenAPI para consultar tablas, series, me
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practicar consumo de OpenAPI y datos estadisticos territoriales.
+
+---
+
+### 🏺 Cultura (España)
+
+### España es Cultura: Datos Abiertos
+
+- URL: `https://www.xn--espaaescultura-tnb.es/datos-abiertos.html`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Hub oficial del Ministerio de Cultura con acceso a `OAI-PMH`, `SPARQL`, `API-REST` y `z39.50` para patrimonio cultural digital. Muy util para explorar estandares de intercambio y linked data cultural.
+
+### Tesauros del Patrimonio Cultural de España
+
+- URL: `http://tesauros.mecd.es/tesauros/sparql`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Endpoint `SPARQL` oficial del Ministerio de Cultura para consultar tesauros y vocabularios patrimoniales en RDF/SKOS. Muy util para linked data, autocompletado semantico y modelado cultural.
+
+### Lista de Encabezamientos de Materia para las Bibliotecas Publicas
+
+- URL: `http://id.sgcb.mcu.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Recurso oficial con buscador, descargas y punto `SPARQL` sobre encabezamientos de materia en SKOS. Muy util para catalogacion, linked open data y utilidades de busqueda cultural.
+
+### Biblioteca Virtual de Prensa Historica
+
+- URL: `https://prensahistorica.mcu.es/es/inicio/inicio.do`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Hemeroteca digital oficial con acceso abierto a millones de paginas y enlaces tecnicos a `OAI-PMH` y `SRU`. Muy util para busqueda documental, OCR y proyectos de historia digital.
 
 ---
 
@@ -339,6 +401,30 @@ Portal oficial con datos abiertos de multiples instituciones y formatos reutiliz
 
 Portal oficial de Paraguay con datasets por temas y guias de uso. Util para practicar descubrimiento de datos, catalogos y consumo de recursos publicos.
 
+### Datos.Gob
+
+- Pais/Region: Chile
+- URL: `https://datos.gob.cl/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal nacional de datos abiertos con conjuntos reutilizables, documentacion y casos de reuso. Muy util para catalogos, filtros y consumo de datos publicos.
+
+### Datos Abiertos
+
+- Pais/Region: Uruguay
+- URL: `https://www.gub.uy/datos-abiertos`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Landing oficial que enlaza al Catalogo Nacional de Datos Abiertos de Uruguay y a recursos para desarrolladores. Muy util para catalogos, reutilizacion y datos gubernamentales.
+
+### Portal Nacional de Datos Abiertos de la Republica Dominicana
+
+- Pais/Region: Republica Dominicana
+- URL: `https://datos.gob.do/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial en castellano con catalogo amplio, normativa y formatos abiertos. Muy util para practica con datos gubernamentales y catalogos nacionales.
+
 ---
 
 ### 💰 Economia y finanzas (Latinoamerica)
@@ -402,6 +488,26 @@ API util para practicar consultas por indicador, area geografica y series tempor
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial para consultar indicadores publicos en `json` o `csv`, con filtros temporales, busqueda y transformaciones. Muy util para series temporales y analisis.
+
+---
+
+### 🏺 Cultura (Latinoamerica)
+
+### Cultura en Datos
+
+- Pais/Region: Argentina
+- URL: `https://www.argentina.gob.ar/cultura/cultura-en-datos`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de la Secretaria de Cultura de la Nacion con indicadores, mapas y bases de datos culturales. Muy util para analisis cultural, visualizacion y reutilizacion de datos sectoriales.
+
+### Sistema de Informacion Cultural (SIC)
+
+- Pais/Region: Mexico
+- URL: `https://sic.cultura.gob.mx/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de la Secretaria de Cultura con espacios culturales, patrimonio, festivales, creadores y seccion de datos abiertos. Muy util para catalogos culturales, mapas y exploracion territorial.
 
 ---
 
@@ -488,6 +594,7 @@ print(data)
 - Montar un buscador juridico con la API del BOE.
 - Graficar tipos de cambio o tasas de interes con Banxico.
 - Construir visualizaciones estadisticas con INE o Eustat.
+- Explorar vocabularios culturales y linked data con los Tesauros del Patrimonio Cultural.
 - Explorar catalogos y recursos de transporte con el NAP de Transporte.
 - Construir utilidades de movilidad urbana con EMT Madrid.
 - Crear un comparador de gasolineras por zona y precio.
@@ -497,6 +604,8 @@ print(data)
 - Normalizar direcciones y puntos de interes con USIG.
 - Explorar datos urbanos y equipamientos con Zaragoza o Barcelona.
 - Reutilizar datasets municipales amplios con Madrid, Bilbao o Donostia.
+- Explorar portales institucionales amplios como Canarias, Galicia o Malaga.
+- Explorar hemerotecas y patrimonio digital con la Biblioteca Virtual de Prensa Historica.
 - Resolver direcciones y coordenadas con CartoCiudad.
 - Descubrir capas y servicios geoespaciales con IDEE.
 - Explorar indicadores de energia con eSIOS.
@@ -504,6 +613,8 @@ print(data)
 - Practicar tablas, filtros y series temporales con INEGI y CMF.
 - Consultar indicadores macroeconomicos con BCRP o BCCR.
 - Practicar integracion SOAP y XML con el servicio de tipo de cambio de BANGUAT.
+- Explorar catalogos nacionales adicionales de Chile, Uruguay o Republica Dominicana.
+- Analizar equipamientos, festivales y patrimonio con Cultura en Datos o el SIC de Mexico.
 
 ## 🧪 Categorias previstas
 
