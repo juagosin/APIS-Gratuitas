@@ -1,0 +1,15 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Herramientas locales
+.opencode/
+opencode.json
+
+# Python
+__pycache__/
+*.pyc
