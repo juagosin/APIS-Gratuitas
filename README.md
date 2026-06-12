@@ -23,6 +23,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [Como leer cada ficha](#como-leer-cada-ficha)
 - [Estructura del contenido](#estructura-del-contenido)
 - [APIs](#apis)
+- [Indice de categorias](#indice-de-categorias)
 - [Primeros pasos para practicar](#primeros-pasos-para-practicar)
 - [Ideas de uso para practicar](#ideas-de-uso-para-practicar)
 - [Criterios de verificacion](#criterios-de-verificacion)
@@ -87,9 +88,32 @@ Esta estructura puede cambiar si:
 
 Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 
+## Indice de categorias
+
 ### Espana
 
-#### Gobierno y datos abiertos
+- [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-espana)
+- [Meteorologia](#meteorologia-espana)
+- [Transporte](#transporte-espana)
+- [Energia](#energia-espana)
+- [Estadistica](#estadistica-espana)
+- [Legal](#legal-espana)
+- [Geografia](#geografia-espana)
+
+### Latinoamerica
+
+- [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-latinoamerica)
+- [Economia y finanzas](#economia-y-finanzas-latinoamerica)
+- [Estadistica](#estadistica-latinoamerica)
+- [Salud](#salud-latinoamerica)
+- [Geografia](#geografia-latinoamerica)
+- [Utilidades](#utilidades-latinoamerica)
+
+## Espana
+
+---
+
+### Gobierno y datos abiertos (Espana)
 
 ### datos.gob.es API
 
@@ -151,7 +175,9 @@ Catalogo oficial con multiples APIs en OpenAPI 3.0.2 sobre empleo publico, inmue
 
 API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util para practicar catalogos CKAN, metadatos y descubrimiento de recursos geograficos y administrativos.
 
-#### Meteorologia
+---
+
+### Meteorologia (Espana)
 
 ### AEMET OpenData
 
@@ -163,7 +189,9 @@ API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util pa
 
 API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y consumo de datos meteorologicos.
 
-#### Transporte
+---
+
+### Transporte (Espana)
 
 ### Geoportal de Gasolineras
 
@@ -185,7 +213,9 @@ Datos abiertos sobre estaciones de servicio y precios de carburantes. Muy util p
 
 API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swagger y permite consultar datasets, operadores, coberturas y recursos de movilidad.
 
-#### Energia
+---
+
+### Energia (Espana)
 
 ### API eSIOS (REE)
 
@@ -197,7 +227,9 @@ API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swa
 
 API de Red Electrica de Espana. Requiere token personal y ofrece indicadores del sistema electrico.
 
-#### Estadistica
+---
+
+### Estadistica (Espana)
 
 ### API JSON / OpenAPI de INEbase
 
@@ -219,7 +251,9 @@ El INE ofrece API JSON y documentacion OpenAPI para consultar tablas, series, me
 
 Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practicar consumo de OpenAPI y datos estadisticos territoriales.
 
-#### Legal
+---
+
+### Legal (Espana)
 
 ### API de datos abiertos del BOE
 
@@ -241,7 +275,9 @@ API oficial para legislacion consolidada, sumarios BOE/BORME y tablas auxiliares
 
 API oficial de Open Data Euskadi para consultar actos administrativos del Boletin Oficial del Pais Vasco. Util para ejercicios de busqueda y datos normativos regionales.
 
-#### Geografia
+---
+
+### Geografia (Espana)
 
 ### CartoCiudad
 
@@ -293,9 +329,11 @@ El visualizador oficial usa el recurso publico `https://www.ign.es/web/resources
 
 El visor oficial expone servicios reutilizables claros: configuracion publica en `https://sigpac.mapa.gob.es/fega/visor/cfg/cfg.js`, WMTS en `https://sigpac.mapa.gob.es/sdg/wmts?service=WMTS&request=GetCapabilities` y consultas JSON en `https://sigpac.mapa.gob.es/fega/serviciosvisorsigpac/query/cod_usosigpac`.
 
-### Latinoamerica
+## Latinoamerica
 
-#### Gobierno y datos abiertos
+---
+
+### Gobierno y datos abiertos (Latinoamerica)
 
 ### Datos Abiertos Colombia
 
@@ -341,7 +379,9 @@ Portal oficial con datos abiertos de multiples instituciones y formatos reutiliz
 
 Portal oficial de Paraguay con datasets por temas y guias de uso. Util para practicar descubrimiento de datos, catalogos y consumo de recursos publicos.
 
-#### Economia y finanzas
+---
+
+### Economia y finanzas (Latinoamerica)
 
 ### SIE API Banxico
 
@@ -398,7 +438,9 @@ API oficial del Banco Central de Reserva del Peru. Permite consultar series esta
 
 Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de cambio del dia, rangos y monedas. Muy util para practicar XML y servicios SOAP.
 
-#### Estadistica
+---
+
+### Estadistica (Latinoamerica)
 
 ### API de Indicadores INEGI
 
@@ -422,7 +464,9 @@ API util para practicar consultas por indicador, area geografica y series tempor
 
 API oficial para consultar indicadores publicos en `json` o `csv`, con filtros temporales, busqueda y transformaciones. Muy util para series temporales y analisis.
 
-#### Salud
+---
+
+### Salud (Latinoamerica)
 
 ### Dataset COVID-19 Colombia
 
@@ -435,7 +479,9 @@ API oficial para consultar indicadores publicos en `json` o `csv`, con filtros t
 
 Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar paginacion, filtros y limpieza de datos.
 
-#### Geografia
+---
+
+### Geografia (Latinoamerica)
 
 ### GeoRef Argentina API
 
@@ -459,7 +505,9 @@ API oficial para provincias, municipios, localidades y normalizacion geografica.
 
 Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direcciones y geocodificar resultados basicos en CABA y AMBA. Muy util para buscadores y mapas.
 
-#### Utilidades
+---
+
+### Utilidades (Latinoamerica)
 
 ### Sismos Chile (Gael Cloud)
 
