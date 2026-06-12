@@ -5,13 +5,13 @@
 ![APIs gratuitas](https://img.shields.io/badge/APIs-gratuitas%20o%20free%20tier-green)
 ![Licencia CC BY 4.0](https://img.shields.io/badge/licencia-CC%20BY%204.0-lightgrey)
 
-Recopilacion de APIs gratuitas pensadas para practicar desarrollo, con foco principal en recursos en castellano de Espana y Latinoamerica.
+Recopilacion de APIs gratuitas pensadas para practicar desarrollo, con foco principal en recursos en castellano de España y Latinoamerica.
 
 El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar y construir pequenos proyectos sin tener que empezar desde cero buscando fuentes fiables.
 
 ## Resumen rapido
 
-- Foco principal: Espana y Latinoamerica.
+- Foco principal: España y Latinoamerica.
 - Prioridad: APIs oficiales o claramente reutilizables.
 - Acceso aceptado: publica, con registro o con `API key`.
 - Estado recomendado: `Verificada` si se ha revisado bien, `Candidata` si faltan comprobaciones.
@@ -35,7 +35,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - Prioridad para APIs con documentacion en castellano.
 - Se aceptan APIs con documentacion bilingue si incluyen castellano.
 - Se aceptan APIs publicas, con registro o con `API key`.
-- Foco principal en Espana y Latinoamerica.
+- Foco principal en España y Latinoamerica.
 - El foco editorial actual es el castellano.
 
 ## Criterios de inclusion
@@ -90,7 +90,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 
 ## Indice de categorias
 
-### Espana
+### España
 
 - [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-espana)
 - [Meteorologia](#meteorologia-espana)
@@ -109,11 +109,11 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Geografia](#geografia-latinoamerica)
 - [Utilidades](#utilidades-latinoamerica)
 
-## Espana
+## España
 
 ---
 
-### Gobierno y datos abiertos (Espana)
+### Gobierno y datos abiertos (España)
 
 ### datos.gob.es API
 
@@ -175,9 +175,39 @@ Catalogo oficial con multiples APIs en OpenAPI 3.0.2 sobre empleo publico, inmue
 
 API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util para practicar catalogos CKAN, metadatos y descubrimiento de recursos geograficos y administrativos.
 
+### Portal de Datos Abiertos del Ayuntamiento de Madrid
+
+- URL: `https://datos.madrid.es/`
+- Acceso: Publica
+- Gratis: Si
+- Oficial: Si
+- Estado: Verificada
+
+Portal oficial con catalogo amplio, `API`, `SPARQL` y multiples datasets de movilidad, medio ambiente y servicios municipales. Muy util para catalogos, filtros y reutilizacion de datos urbanos.
+
+### Bilbao Open Data
+
+- URL: `https://www.bilbao.eus/opendata/es/inicio`
+- Acceso: Publica
+- Gratis: Si
+- Oficial: Si
+- Estado: Verificada
+
+Portal oficial del Ayuntamiento de Bilbao con catalogo reutilizable y recursos en `JSON`, `CSV`, `RDF` y `RSS`. Util para practicar agenda, callejero, demografia y datos urbanos.
+
+### Datos Abiertos de Donostia / San Sebastian
+
+- URL: `https://www.donostia.eus/datosabiertos/catalogo`
+- Acceso: Publica
+- Gratis: Si
+- Oficial: Si
+- Estado: Verificada
+
+Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy util para datos urbanos, demografia, callejero y capas geograficas.
+
 ---
 
-### Meteorologia (Espana)
+### Meteorologia (España)
 
 ### AEMET OpenData
 
@@ -191,7 +221,7 @@ API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y con
 
 ---
 
-### Transporte (Espana)
+### Transporte (España)
 
 ### Geoportal de Gasolineras
 
@@ -213,9 +243,19 @@ Datos abiertos sobre estaciones de servicio y precios de carburantes. Muy util p
 
 API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swagger y permite consultar datasets, operadores, coberturas y recursos de movilidad.
 
+### EMT Open Data / MobilityLabs Madrid
+
+- URL: `https://datos.emtmadrid.es/`
+- Acceso: Registro / API key
+- Gratis: Si
+- Oficial: Si
+- Estado: Verificada
+
+Portal oficial de EMT Madrid con documentacion y API REST para autobuses, bicimad, aparcamientos y datos de movilidad. Muy util para tiempo real, rutas y aplicaciones urbanas.
+
 ---
 
-### Energia (Espana)
+### Energia (España)
 
 ### API eSIOS (REE)
 
@@ -225,11 +265,11 @@ API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swa
 - Oficial: Si
 - Estado: Verificada
 
-API de Red Electrica de Espana. Requiere token personal y ofrece indicadores del sistema electrico.
+API de Red Electrica de España. Requiere token personal y ofrece indicadores del sistema electrico.
 
 ---
 
-### Estadistica (Espana)
+### Estadistica (España)
 
 ### API JSON / OpenAPI de INEbase
 
@@ -253,7 +293,7 @@ Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practic
 
 ---
 
-### Legal (Espana)
+### Legal (España)
 
 ### API de datos abiertos del BOE
 
@@ -277,7 +317,7 @@ API oficial de Open Data Euskadi para consultar actos administrativos del Boleti
 
 ---
 
-### Geografia (Espana)
+### Geografia (España)
 
 ### CartoCiudad
 
@@ -307,7 +347,7 @@ Incluye buscador y difusion de datos catastrales, cartografia y servicios web. B
 - Oficial: Si
 - Estado: Verificada
 
-Directorio y catalogos de servicios geoespaciales de Espana. Muy util para practicar descubrimiento de capas, mapas y metadatos.
+Directorio y catalogos de servicios geoespaciales de España. Muy util para practicar descubrimiento de capas, mapas y metadatos.
 
 ### IGN Terremotos
 
@@ -562,12 +602,14 @@ print(data)
 - Graficar tipos de cambio o tasas de interes con Banxico.
 - Construir visualizaciones estadisticas con INE o Eustat.
 - Explorar catalogos y recursos de transporte con el NAP de Transporte.
+- Construir utilidades de movilidad urbana con EMT Madrid.
 - Crear un comparador de gasolineras por zona y precio.
 - Mostrar terremotos recientes en un mapa con datos del IGN.
 - Crear un buscador geografico con GeoRef Argentina.
 - Explorar series historicas de indicadores con la API de Series de Tiempo de Argentina.
 - Normalizar direcciones y puntos de interes con USIG.
 - Explorar datos urbanos y equipamientos con Zaragoza o Barcelona.
+- Reutilizar datasets municipales amplios con Madrid, Bilbao o Donostia.
 - Resolver direcciones y coordenadas con CartoCiudad.
 - Descubrir capas y servicios geoespaciales con IDEE.
 - Explorar indicadores de energia con eSIOS.
@@ -633,4 +675,10 @@ El repositorio acepta aportaciones mediante `PRs`, manteniendo el foco en APIs u
 
 ## Objetivo del repositorio
 
-Mantener una seleccion curada, clara y verificable de APIs utiles para practicar desarrollo en castellano, con foco principal en Espana y Latinoamerica.
+Mantener una seleccion curada, clara y verificable de APIs utiles para practicar desarrollo en castellano, con foco principal en España y Latinoamerica.
+
+---
+
+## ⭐ Dale una estrella
+
+Si te gusta este proyecto, ¡dale una estrella! ⭐ Ayuda a otros desarrolladores a encontrarlo.
