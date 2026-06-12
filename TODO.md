@@ -20,6 +20,7 @@ Estado actual:
 - Hecho: anadir una nueva tanda de APIs y portales oficiales de Latinoamerica verificados.
 - Hecho: revisar `datos.bne.es` y concluir que por ahora encaja mejor como recurso aparte que como API del listado principal.
 - Hecho: preparar una primera tanda de plantillas para issues o PRs si el repo se abre a comunidad.
+- Hecho: ajustar el `README.md` a un tono mas tecnico y estable de cara a hacerlo publico.
 - Dejar para otro dia: anadir mas APIs oficiales de Espana y Latinoamerica.
 - Revisar si mas adelante conviene crear una seccion separada de recursos abiertos que no sean APIs claras.
 - Hecho: revisar si `Datos Abiertos Peru` encaja como API `Candidata` y concluir que por ahora necesita mas comprobacion tecnica.

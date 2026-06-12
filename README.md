@@ -21,7 +21,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [Enfoque del proyecto](#enfoque-del-proyecto)
 - [Criterios de inclusion](#criterios-de-inclusion)
 - [Como leer la tabla](#como-leer-la-tabla)
-- [Decision actual sobre la estructura](#decision-actual-sobre-la-estructura)
+- [Estructura del contenido](#estructura-del-contenido)
 - [APIs](#apis)
 - [Primeros pasos para practicar](#primeros-pasos-para-practicar)
 - [Ideas de uso para practicar](#ideas-de-uso-para-practicar)
@@ -35,7 +35,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - Se aceptan APIs con documentacion bilingue si incluyen castellano.
 - Se aceptan APIs publicas, con registro o con `API key`.
 - Foco principal en Espana y Latinoamerica.
-- En el futuro podrian incluirse APIs en ingles, pero no es el objetivo principal ahora.
+- El foco editorial actual es el castellano.
 
 ## Criterios de inclusion
 
@@ -47,7 +47,7 @@ Una API deberia cumplir la mayor parte de estos puntos:
 - Estar activa o con senales razonables de mantenimiento.
 - Indicar claramente si requiere registro o `API key`.
 
-Quedan fuera por ahora:
+Quedan fuera de este listado:
 
 - APIs de pago sin acceso gratuito.
 - APIs sin documentacion clara.
@@ -65,17 +65,17 @@ Quedan fuera por ahora:
 
 Cuando una API no es oficial pero puede ser util para practicar, se marca como tal en la columna `Oficial` y normalmente queda como `Candidata` hasta revisarla mejor.
 
-## Decision actual sobre la estructura
+## Estructura del contenido
 
-Por ahora no conviene separar las APIs en varios archivos.
+Las APIs se mantienen en un unico `README.md`.
 
 Motivos:
 
-- la lista sigue siendo pequena y manejable
+- la lista es manejable
 - un solo `README.md` facilita leer, buscar y contribuir
-- mantener todo junto reduce complejidad innecesaria en esta fase
+- mantener todo junto reduce complejidad innecesaria
 
-Se podria revisar esta decision mas adelante si:
+Esta estructura puede cambiar si:
 
 - crece mucho el numero de APIs
 - aparecen muchas categorias con bastante contenido
@@ -83,7 +83,7 @@ Se podria revisar esta decision mas adelante si:
 
 ## APIs
 
-Primera seleccion curada para arrancar el proyecto. La idea es ampliar y revisar esta tabla de forma iterativa, priorizando calidad y claridad antes que cantidad.
+Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 
 ### Espana
 
@@ -192,7 +192,7 @@ print(data)
 
 ## Criterios de verificacion
 
-Antes de anadir una API o marcarla como `Verificada`, conviene revisar:
+Antes de anadir una API o marcarla como `Verificada`, revisa:
 
 - Si la documentacion oficial sigue activa y abre correctamente.
 - Si el acceso gratuito sigue disponible o existe un free tier util.
@@ -206,7 +206,7 @@ Si alguno de estos puntos no puede confirmarse bien, es mejor dejar la API como 
 
 ## Como contribuir
 
-De momento el repositorio esta en fase inicial. Si quieres proponer cambios, revisa tambien la guia de [CONTRIBUTING.md](CONTRIBUTING.md).
+Si quieres proponer cambios, revisa tambien la guia de [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Se aceptan colaboraciones mediante `Pull Requests`, sobre todo para:
 
@@ -217,7 +217,7 @@ Se aceptan colaboraciones mediante `Pull Requests`, sobre todo para:
 
 Si abres un `Pull Request`, intenta que sea pequeno, claro y facil de revisar.
 
-Cuando se abra a colaboraciones, idealmente cada propuesta deberia incluir:
+Cada propuesta deberia incluir:
 
 - La propuesta puede enviarse mediante `Pull Request`.
 - Nombre de la API.
@@ -228,8 +228,8 @@ Cuando se abra a colaboraciones, idealmente cada propuesta deberia incluir:
 - Evidencia de que es gratuita o tiene free tier.
 - Idioma de la documentacion.
 
-La idea es que el repositorio pueda crecer tambien con aportaciones de otras personas mediante `PRs`, siempre manteniendo el foco en APIs utiles para practicar.
+El repositorio acepta aportaciones mediante `PRs`, manteniendo el foco en APIs utiles para practicar.
 
-## Objetivo a corto plazo
+## Objetivo del repositorio
 
-Construir una primera seleccion curada de APIs utiles para practicar, priorizando calidad y claridad antes que cantidad.
+Mantener una seleccion curada, clara y verificable de APIs utiles para practicar desarrollo en castellano, con foco principal en Espana y Latinoamerica.
