@@ -9,14 +9,14 @@ Recopilacion de APIs gratuitas pensadas para practicar desarrollo, con foco prin
 
 El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar y construir pequenos proyectos sin tener que empezar desde cero buscando fuentes fiables.
 
-## Resumen rapido
+## 📌 Resumen rapido
 
 - Foco principal: España y Latinoamerica.
 - Prioridad: APIs oficiales o claramente reutilizables.
 - Acceso aceptado: publica, con registro o con `API key`.
 - Estado recomendado: `Verificada` si se ha revisado bien, `Candidata` si faltan comprobaciones.
 
-## Navegacion rapida
+## 🧭 Navegacion rapida
 
 - [Enfoque del proyecto](#enfoque-del-proyecto)
 - [Criterios de inclusion](#criterios-de-inclusion)
@@ -29,7 +29,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [Criterios de verificacion](#criterios-de-verificacion)
 - [Como contribuir](#como-contribuir)
 
-## Enfoque del proyecto
+## 🎯 Enfoque del proyecto
 
 - APIs gratuitas o con plan gratuito.
 - Prioridad para APIs con documentacion en castellano.
@@ -38,7 +38,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - Foco principal en España y Latinoamerica.
 - El foco editorial actual es el castellano.
 
-## Criterios de inclusion
+## ✅ Criterios de inclusion
 
 Una API deberia cumplir la mayor parte de estos puntos:
 
@@ -56,7 +56,7 @@ Quedan fuera de este listado:
 - APIs cuyo uso en castellano no sea razonable.
 - Recursos oficiales utiles que no funcionen realmente como API clara o mantenible para este listado.
 
-## Como leer cada ficha
+## 🗂️ Como leer cada ficha
 
 Cada API incluye estos campos:
 
@@ -68,7 +68,7 @@ Cada API incluye estos campos:
 
 Debajo de cada bloque se incluye una descripcion breve de lo que ofrece la API y por que puede servir para practicar.
 
-## Estructura del contenido
+## 🧱 Estructura del contenido
 
 Las APIs se mantienen en un unico `README.md`.
 
@@ -84,11 +84,11 @@ Esta estructura puede cambiar si:
 - aparecen muchas categorias con bastante contenido
 - el `README.md` deja de ser comodo de mantener
 
-## APIs
+## 📚 APIs
 
 Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 
-## Indice de categorias
+## 🧩 Indice de categorias
 
 ### España
 
@@ -109,11 +109,13 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Geografia](#geografia-latinoamerica)
 - [Utilidades](#utilidades-latinoamerica)
 
-## España
+## 🇪🇸 España
+
+> APIs y portales oficiales de España para practica, aprendizaje y reutilizacion.
 
 ---
 
-### Gobierno y datos abiertos (España)
+### 🏛️ Gobierno y datos abiertos (España)
 
 ### datos.gob.es API
 
@@ -207,7 +209,7 @@ Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy
 
 ---
 
-### Meteorologia (España)
+### 🌦️ Meteorologia (España)
 
 ### AEMET OpenData
 
@@ -221,7 +223,7 @@ API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y con
 
 ---
 
-### Transporte (España)
+### 🚌 Transporte (España)
 
 ### Geoportal de Gasolineras
 
@@ -255,7 +257,7 @@ Portal oficial de EMT Madrid con documentacion y API REST para autobuses, bicima
 
 ---
 
-### Energia (España)
+### ⚡ Energia (España)
 
 ### API eSIOS (REE)
 
@@ -269,7 +271,7 @@ API de Red Electrica de España. Requiere token personal y ofrece indicadores de
 
 ---
 
-### Estadistica (España)
+### 📊 Estadistica (España)
 
 ### API JSON / OpenAPI de INEbase
 
@@ -293,7 +295,7 @@ Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practic
 
 ---
 
-### Legal (España)
+### ⚖️ Legal (España)
 
 ### API de datos abiertos del BOE
 
@@ -317,7 +319,7 @@ API oficial de Open Data Euskadi para consultar actos administrativos del Boleti
 
 ---
 
-### Geografia (España)
+### 🗺️ Geografia (España)
 
 ### CartoCiudad
 
@@ -369,11 +371,13 @@ El visualizador oficial usa el recurso publico `https://www.ign.es/web/resources
 
 El visor oficial expone servicios reutilizables claros: configuracion publica en `https://sigpac.mapa.gob.es/fega/visor/cfg/cfg.js`, WMTS en `https://sigpac.mapa.gob.es/sdg/wmts?service=WMTS&request=GetCapabilities` y consultas JSON en `https://sigpac.mapa.gob.es/fega/serviciosvisorsigpac/query/cod_usosigpac`.
 
-## Latinoamerica
+## 🌎 Latinoamerica
+
+> APIs y portales oficiales o claramente reutilizables de Latinoamerica para practicar con datos reales.
 
 ---
 
-### Gobierno y datos abiertos (Latinoamerica)
+### 🏛️ Gobierno y datos abiertos (Latinoamerica)
 
 ### Datos Abiertos Colombia
 
@@ -421,7 +425,7 @@ Portal oficial de Paraguay con datasets por temas y guias de uso. Util para prac
 
 ---
 
-### Economia y finanzas (Latinoamerica)
+### 💰 Economia y finanzas (Latinoamerica)
 
 ### SIE API Banxico
 
@@ -480,7 +484,7 @@ Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de ca
 
 ---
 
-### Estadistica (Latinoamerica)
+### 📊 Estadistica (Latinoamerica)
 
 ### API de Indicadores INEGI
 
@@ -506,7 +510,7 @@ API oficial para consultar indicadores publicos en `json` o `csv`, con filtros t
 
 ---
 
-### Salud (Latinoamerica)
+### 🩺 Salud (Latinoamerica)
 
 ### Dataset COVID-19 Colombia
 
@@ -521,7 +525,7 @@ Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar pagina
 
 ---
 
-### Geografia (Latinoamerica)
+### 🗺️ Geografia (Latinoamerica)
 
 ### GeoRef Argentina API
 
@@ -547,7 +551,7 @@ Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direc
 
 ---
 
-### Utilidades (Latinoamerica)
+### 🧰 Utilidades (Latinoamerica)
 
 ### Sismos Chile (Gael Cloud)
 
@@ -560,7 +564,7 @@ Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direc
 
 Endpoint publico con documentacion en castellano y limite claro de uso. Util para practicar consumo de eventos sismicos recientes.
 
-## Primeros pasos para practicar
+## 🚀 Primeros pasos para practicar
 
 Una forma simple de usar este repositorio es esta:
 
@@ -595,7 +599,7 @@ data = requests.get(url, timeout=10).json()
 print(data)
 ```
 
-## Ideas de uso para practicar
+## 💡 Ideas de uso para practicar
 
 - Construir un dashboard meteorologico con AEMET.
 - Montar un buscador juridico con la API del BOE.
@@ -618,7 +622,7 @@ print(data)
 - Consultar indicadores macroeconomicos con BCRP o BCCR.
 - Practicar integracion SOAP y XML con el servicio de tipo de cambio de BANGUAT.
 
-## Categorias previstas
+## 🧪 Categorias previstas
 
 - Gobierno y datos abiertos
 - Meteorologia
@@ -633,7 +637,7 @@ print(data)
 - Legal
 - Utilidades
 
-## Criterios de verificacion
+## 🔎 Criterios de verificacion
 
 Antes de anadir una API o marcarla como `Verificada`, revisa:
 
@@ -647,7 +651,7 @@ Antes de anadir una API o marcarla como `Verificada`, revisa:
 
 Si alguno de estos puntos no puede confirmarse bien, es mejor dejar la API como `Candidata`.
 
-## Como contribuir
+## 🤝 Como contribuir
 
 Si quieres proponer cambios, revisa tambien la guia de [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -673,7 +677,7 @@ Cada propuesta deberia incluir:
 
 El repositorio acepta aportaciones mediante `PRs`, manteniendo el foco en APIs utiles para practicar.
 
-## Objetivo del repositorio
+## 🎯 Objetivo del repositorio
 
 Mantener una seleccion curada, clara y verificable de APIs utiles para practicar desarrollo en castellano, con foco principal en España y Latinoamerica.
 
