@@ -25,6 +25,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [Estructura del contenido](#estructura-del-contenido)
 - [APIs](#apis)
 - [Indice de categorias](#indice-de-categorias)
+- [Para empezar rapido](#para-empezar-rapido)
 - [Primeros pasos para practicar](#primeros-pasos-para-practicar)
 - [Ideas de uso para practicar](#ideas-de-uso-para-practicar)
 - [Criterios de verificacion](#criterios-de-verificacion)
@@ -678,6 +679,23 @@ Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direc
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: No](https://img.shields.io/badge/oficial-no-8d99ae) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Endpoint publico con documentacion en castellano y limite claro de uso. Util para practicar consumo de eventos sismicos recientes.
+
+## ⚡ Para empezar rapido
+
+Si quieres probar algo sin complicarte mucho, estas son buenas opciones de entrada:
+
+- **datos.gob.es API**
+  Publica, oficial y sencilla para practicar catalogos, filtros y metadatos.
+- **GeoRef Argentina API**
+  Publica, oficial y muy buena para busquedas geograficas, autocompletado y mapas.
+- **API de datos abiertos del BOE**
+  Publica, oficial y util para practicar consultas sobre datos juridicos reales.
+- **AEMET OpenData**
+  Muy buena para empezar con autenticacion simple mediante `API key` y datos meteorologicos.
+- **Sismos Chile (Gael Cloud)**
+  No oficial, pero muy facil de probar y util para ejercicios rapidos con JSON.
+- **Datos Abiertos MINEDUC**
+  Buena opcion si prefieres practicar limpieza, ETL y analisis con datasets educativos.
 
 ## 🚀 Primeros pasos para practicar
 
