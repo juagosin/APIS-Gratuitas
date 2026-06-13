@@ -24,6 +24,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [API clara vs recurso reutilizable](#api-clara-vs-recurso-reutilizable)
 - [Estructura del contenido](#estructura-del-contenido)
 - [APIs](#apis)
+- [Recursos abiertos reutilizables](#recursos-abiertos-reutilizables)
 - [Indice de categorias](#indice-de-categorias)
 - [Para empezar rapido](#para-empezar-rapido)
 - [Primeros pasos para practicar](#primeros-pasos-para-practicar)
@@ -101,6 +102,21 @@ Esta estructura puede cambiar si:
 ## 📚 APIs
 
 Listado curado de APIs claras y recursos reutilizables para practica y aprendizaje.
+
+## 🧰 Recursos abiertos reutilizables
+
+Aqui pueden aparecer recursos oficiales utiles para practicar que todavia no encajan del todo como `API clara` del listado principal.
+
+Se usan como zona intermedia para no perder referencias valiosas, pero sin marcarlas como equivalentes a una API verificada cuando el acceso tecnico aun es ambiguo o demasiado dependiente de tableros y navegacion web.
+
+### Educacion en datos
+
+- Pais/Region: Argentina
+- URL: [https://www.argentina.gob.ar/educacion/evaluacion-e-informacion-educativa/educacion-en-datos](https://www.argentina.gob.ar/educacion/evaluacion-e-informacion-educativa/educacion-en-datos)
+- Tipo: `Portal / Tableros`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Candidata](https://img.shields.io/badge/estado-candidata-yellow)
+
+Hub oficial que agrupa tableros y consultas educativas nacionales de Argentina. Es util para exploracion y referencia, pero por ahora encaja mejor aqui hasta confirmar mejor un acceso tecnico estable y directo como recurso reutilizable principal.
 
 ## 🧩 Indice de categorias
 
