@@ -250,6 +250,14 @@ Portal oficial de la Xunta de Galicia con catalogo reutilizable y al menos servi
 
 Portal oficial basado en CKAN con gran volumen de datos municipales sobre cartografia, movilidad, medio ambiente y servicios urbanos. Muy util para catalogos y datos urbanos.
 
+### Datos Abiertos de Castilla y Leon
+
+- URL: [https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html)
+- Tipo: `Portal de datos`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de la Junta de Castilla y Leon con buscador de datasets, formatos abiertos y ejemplos de reutilizacion. Muy util para catalogos, limpieza de datos y exploracion sectorial.
+
 ---
 
 ### 🌦️ Meteorologia (España)
@@ -545,6 +553,15 @@ Landing oficial que enlaza al Catalogo Nacional de Datos Abiertos de Uruguay y a
 
 Portal oficial en castellano con catalogo amplio, normativa y formatos abiertos. Muy util para practica con datos gubernamentales y catalogos nacionales.
 
+### Resultados Electorales - API
+
+- Pais/Region: Argentina
+- URL: [https://datos.gob.ar/dataset/dine_2/resource/dine_2.1](https://datos.gob.ar/dataset/dine_2/resource/dine_2.1)
+- Tipo: `REST / OpenAPI`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+API oficial de la Direccion Nacional Electoral para consultar resultados provisionales electorales historicos. Incluye documentacion tecnica y coleccion de ejemplos. Muy util para busquedas, filtros y visualizacion de resultados publicos.
+
 ---
 
 ### 💰 Economia y finanzas (Latinoamerica)
@@ -593,6 +610,15 @@ API oficial del Banco Central de Reserva del Peru. Permite consultar series esta
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de cambio del dia, rangos y monedas. Muy util para practicar XML y servicios SOAP.
+
+### API de Presupuesto Abierto
+
+- Pais/Region: Argentina
+- URL: [https://datos.gob.ar/dataset/sspre_api/resource/sspre_API](https://datos.gob.ar/dataset/sspre_api/resource/sspre_API)
+- Tipo: `REST`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+API oficial de Presupuesto Abierto de Argentina, enlazada desde datos.gob.ar y presupuestoabierto.gob.ar. Muy util para explorar ejecucion presupuestaria, estructuras de gasto y consultas financieras publicas.
 
 ---
 
