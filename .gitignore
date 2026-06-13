@@ -9,6 +9,8 @@ Thumbs.db
 # Herramientas locales
 .opencode/
 opencode.json
+AGENTS.md
+TODO.md
 
 # Python
 __pycache__/
