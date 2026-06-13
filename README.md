@@ -21,6 +21,7 @@ El objetivo de este repositorio es reunir APIs utiles para aprender, prototipar 
 - [Enfoque del proyecto](#enfoque-del-proyecto)
 - [Criterios de inclusion](#criterios-de-inclusion)
 - [Como leer cada ficha](#como-leer-cada-ficha)
+- [API clara vs recurso reutilizable](#api-clara-vs-recurso-reutilizable)
 - [Estructura del contenido](#estructura-del-contenido)
 - [APIs](#apis)
 - [Indice de categorias](#indice-de-categorias)
@@ -47,6 +48,7 @@ Una API deberia cumplir la mayor parte de estos puntos:
 - Estar orientada a casos de uso reales.
 - Estar activa o con senales razonables de mantenimiento.
 - Indicar claramente si requiere registro o `API key`.
+- Si no es una API formal, ser al menos un recurso reutilizable claro y mantenible para practicar.
 
 Quedan fuera de este listado:
 
@@ -66,6 +68,19 @@ Cada API incluye estos campos:
 
 Debajo de cada bloque se incluye una descripcion breve de lo que ofrece la API y por que puede servir para practicar.
 
+## 🔀 API clara vs recurso reutilizable
+
+Este listado mezcla dos casos validos para practicar:
+
+- `API clara`: tiene endpoints o protocolos de consulta relativamente directos, como `REST`, `SOAP`, `SPARQL`, `OAI-PMH`, `CKAN` o `OpenAPI`.
+- `Recurso reutilizable`: no siempre ofrece una API formal unica, pero si acceso tecnico util y mantenible, como `Portal de datos`, `Datasets`, `Geoservicios`, `Catalogo / JSON` o casos similares.
+
+Regla editorial simple:
+
+- si una ficha permite consumir datos de forma directa y razonablemente estable, puede entrar
+- si solo es una landing sin acceso tecnico claro, no deberia entrar
+- si hay dudas, es mejor dejarla como `Candidata` o fuera del listado principal
+
 ## 🧱 Estructura del contenido
 
 Las APIs se mantienen en un unico `README.md`.
@@ -84,7 +99,7 @@ Esta estructura puede cambiar si:
 
 ## 📚 APIs
 
-Listado curado de APIs y portales reutilizables para practica y aprendizaje.
+Listado curado de APIs claras y recursos reutilizables para practica y aprendizaje.
 
 ## 🧩 Indice de categorias
 
