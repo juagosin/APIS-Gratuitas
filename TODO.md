@@ -31,7 +31,7 @@ Estado actual:
 - Hecho: cerrar una ampliacion de educacion verificada en el `README.md` con `ESCALE` y `SIGANEP`.
 - Hecho: cerrar una ampliacion de educacion verificada en el `README.md` con `Aristas`.
 - Hecho: verificar mejor `Educacion en datos` y concluir que por ahora encaja mejor fuera del listado principal hasta tener acceso tecnico mas claro.
-- Revisar si mas adelante conviene crear una seccion separada de recursos abiertos que no sean APIs claras.
+- Hecho: revisar si conviene crear una seccion separada de recursos abiertos que no sean APIs claras.
 - Hecho: revisar si `Datos Abiertos Peru` encaja como API `Candidata` y concluir que por ahora necesita mas comprobacion tecnica.
 - Dejar para otro dia: reintentar la comprobacion tecnica de `Datos Abiertos Peru` si el portal deja de devolver `403` o aparece documentacion oficial mas clara.
 - Roadmap corto propuesto:
@@ -39,7 +39,8 @@ Estado actual:
   - 2. Hecho: anadir un campo corto `Tipo` en las fichas para distinguir `REST`, `CKAN`, `SOAP`, `SPARQL`, `OAI-PMH`, `WMS/WMTS` u otros.
   - 3. Hecho: separar mejor `API clara` frente a `recurso reutilizable` si el listado sigue mezclando ambos casos.
   - 4. Hecho: anadir una seccion breve de `Para empezar rapido` con APIs especialmente faciles para practicar.
-- Siguiente prioridad: revisar si mas adelante conviene crear una seccion separada de recursos abiertos que no sean APIs claras.
 - Hecho: crear una primera seccion `Recursos abiertos reutilizables` y mover ahi `Educacion en datos` como referencia oficial no equivalente a API verificada.
+- Hecho: revisar los casos frontera actuales y decidir que, por ahora, se mantienen en el listado principal los que si ofrecen acceso tecnico suficientemente claro, como `ESCALE`, `SIGANEP`, `Aristas`, `IGN Terremotos` o `SIGPAC`.
+- Siguiente prioridad: anadir mas APIs oficiales de Espana y Latinoamerica o seguir revisando casos frontera nuevos segun aparezcan.
 - Siguiente paso recomendado si se retoma pronto: revisar si conviene mover mas casos frontera a `Recursos abiertos reutilizables` o mantenerlos en el listado principal.
 - Mantener este `TODO.md` actualizado cada vez que se complete o cambie una tarea relevante.

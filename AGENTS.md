@@ -37,3 +37,4 @@ No dejes el `TODO.md` desactualizado si el trabajo realizado cambia el estado re
 - Haz cambios pequenos y directos.
 - Conserva el repositorio simple salvo que haya una razon clara para complicarlo.
 - Si anades o revisas APIs, intenta validar documentacion, acceso gratuito y estado real.
+- Si revisas casos frontera, deja claro en `README.md` y `TODO.md` si se mantienen en el listado principal o si pasan a `Recursos abiertos reutilizables`.

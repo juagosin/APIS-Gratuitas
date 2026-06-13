@@ -80,6 +80,7 @@ Este listado mezcla dos casos validos para practicar:
 Regla editorial simple:
 
 - si una ficha permite consumir datos de forma directa y razonablemente estable, puede entrar
+- si un portal o geovisor ofrece descargas, ficheros estructurados, geoservicios o consultas reutilizables claras, puede seguir en el listado principal aunque no sea una API REST clasica
 - si solo es una landing sin acceso tecnico claro, no deberia entrar
 - si hay dudas, es mejor dejarla como `Candidata` o fuera del listado principal
 
@@ -108,6 +109,8 @@ Listado curado de APIs claras y recursos reutilizables para practica y aprendiza
 Aqui pueden aparecer recursos oficiales utiles para practicar que todavia no encajan del todo como `API clara` del listado principal.
 
 Se usan como zona intermedia para no perder referencias valiosas, pero sin marcarlas como equivalentes a una API verificada cuando el acceso tecnico aun es ambiguo o demasiado dependiente de tableros y navegacion web.
+
+Por ahora, tras revisar los casos frontera mas recientes, se mantiene en el listado principal lo que si ofrece acceso tecnico directo suficientemente claro, como descargas `csv`, cuestionarios, mapas reutilizables, geoservicios o buscadores con salida estructurada.
 
 ### Educacion en datos
 
