@@ -100,6 +100,8 @@ Esta estructura puede cambiar si:
 - aparecen muchas categorias con bastante contenido
 - el `README.md` deja de ser comodo de mantener
 
+Si el listado sigue creciendo al ritmo actual, el siguiente paso natural sera dividir el contenido en varias paginas sencillas, probablemente por region o por bloques tematicos.
+
 ## 📚 APIs
 
 Listado curado de APIs claras y recursos reutilizables para practica y aprendizaje.
@@ -120,6 +122,14 @@ Por ahora, tras revisar los casos frontera mas recientes, se mantiene en el list
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Candidata](https://img.shields.io/badge/estado-candidata-yellow)
 
 Hub oficial que agrupa tableros y consultas educativas nacionales de Argentina. Es util para exploracion y referencia, pero por ahora encaja mejor aqui hasta confirmar mejor un acceso tecnico estable y directo como recurso reutilizable principal.
+
+### Datos enlazados de la BNE
+
+- URL: [https://datos.bne.es/inicio.html](https://datos.bne.es/inicio.html)
+- Tipo: `Linked Open Data`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Candidata](https://img.shields.io/badge/estado-candidata-yellow)
+
+Portal oficial de datos enlazados de la Biblioteca Nacional de España. Es valioso para exploracion semantica y referencia bibliografica, pero por ahora encaja mejor aqui que en el listado principal mientras el acceso practico siga siendo menos claro que el del catalogo abierto en CKAN de la propia BNE.
 
 ## 🧩 Indice de categorias
 
@@ -450,6 +460,14 @@ Recurso oficial con buscador, descargas y punto `SPARQL` sobre encabezamientos d
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Hemeroteca digital oficial con acceso abierto a millones de paginas y enlaces tecnicos a `OAI-PMH` y `SRU`. Muy util para busqueda documental, OCR y proyectos de historia digital.
+
+### Datos abiertos BNE
+
+- URL: [https://datosabiertos.bne.es/catalogo/](https://datosabiertos.bne.es/catalogo/)
+- Tipo: `CKAN`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Catalogo oficial de datos abiertos de la Biblioteca Nacional de España con API `CKAN`, metadatos DCAT y recursos descargables en `csv`, `json`, `xml`, `txt` u `ods`. Muy util para practicar catalogos culturales, metadatos bibliograficos y reutilizacion de colecciones digitales en dominio publico.
 
 ---
 
@@ -994,7 +1012,6 @@ Si abres un `Pull Request`, intenta que sea pequeno, claro y facil de revisar.
 
 Cada propuesta deberia incluir:
 
-- La propuesta puede enviarse mediante `Pull Request`.
 - Nombre de la API.
 - Enlace oficial.
 - Pais o region.
