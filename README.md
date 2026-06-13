@@ -61,6 +61,7 @@ Quedan fuera de este listado:
 Cada API incluye estos campos:
 
 - `URL`: documentacion oficial o recurso principal.
+- `Tipo`: forma principal de acceso o tecnologia mas util para practicar.
 - `Acceso`, `Gratis`, `Oficial` y `Estado`: se muestran de forma compacta con badges.
 
 Debajo de cada bloque se incluye una descripcion breve de lo que ofrece la API y por que puede servir para practicar.
@@ -121,6 +122,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 ### datos.gob.es API
 
 - URL: `https://datos.gob.es/es/apidata`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API del catalogo de datos abiertos del portal oficial. Buena para practicar catalogos, filtros y metadatos.
@@ -128,6 +130,7 @@ API del catalogo de datos abiertos del portal oficial. Buena para practicar cata
 ### API REST Zaragoza
 
 - URL: `https://www.zaragoza.es/sede/portal/datos-abiertos/api`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial del Ayuntamiento de Zaragoza. Permite consultar catalogo y datos en `json`, `geojson`, `xml` o `csv`, con filtros, paginacion y ejemplos. El alta es opcional.
@@ -135,6 +138,7 @@ API oficial del Ayuntamiento de Zaragoza. Permite consultar catalogo y datos en 
 ### Open Data BCN API
 
 - URL: `https://opendata-ajuntament.barcelona.cat/es/desenvolupadors`
+- Tipo: `CKAN`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial para desarrolladores del Ayuntamiento de Barcelona. Explica la API CKAN del catalogo, consultas sobre recursos CSV y limites de uso. Algunos recursos pueden requerir token.
@@ -142,6 +146,7 @@ Portal oficial para desarrolladores del Ayuntamiento de Barcelona. Explica la AP
 ### APIs de Open Data Euskadi
 
 - URL: `https://opendata.euskadi.eus/apis/-/apis-open-data/`
+- Tipo: `REST`
 ![Acceso: Publica / Registro](https://img.shields.io/badge/acceso-publica%20%2F%20registro-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Hub oficial con APIs REST de trafico, agua, aire, directorio, subvenciones, calendario laboral y mas. Algunas, como Euskalmet, requieren registro gratuito.
@@ -149,6 +154,7 @@ Hub oficial con APIs REST de trafico, agua, aire, directorio, subvenciones, cale
 ### APIs del Portal de Datos Abiertos de la Junta de Andalucia
 
 - URL: `https://www.juntadeandalucia.es/datosabiertos/portal/aplicaciones/buscador-apis`
+- Tipo: `OpenAPI`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Catalogo oficial con multiples APIs en OpenAPI 3.0.2 sobre empleo publico, inmuebles, organigrama, noticias y otros datos administrativos.
@@ -156,6 +162,7 @@ Catalogo oficial con multiples APIs en OpenAPI 3.0.2 sobre empleo publico, inmue
 ### API CKAN de Dades Obertes GVA
 
 - URL: `https://dadesobertes.gva.es/api/3/action/package_search?rows=1`
+- Tipo: `CKAN`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util para practicar catalogos CKAN, metadatos y descubrimiento de recursos geograficos y administrativos.
@@ -163,6 +170,7 @@ API oficial del catalogo de datos abiertos de la Generalitat Valenciana. Util pa
 ### Portal de Datos Abiertos del Ayuntamiento de Madrid
 
 - URL: `https://datos.madrid.es/`
+- Tipo: `API / SPARQL`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial con catalogo amplio, `API`, `SPARQL` y multiples datasets de movilidad, medio ambiente y servicios municipales. Muy util para catalogos, filtros y reutilizacion de datos urbanos.
@@ -170,6 +178,7 @@ Portal oficial con catalogo amplio, `API`, `SPARQL` y multiples datasets de movi
 ### Bilbao Open Data
 
 - URL: `https://www.bilbao.eus/opendata/es/inicio`
+- Tipo: `Catalogo / JSON`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial del Ayuntamiento de Bilbao con catalogo reutilizable y recursos en `JSON`, `CSV`, `RDF` y `RSS`. Util para practicar agenda, callejero, demografia y datos urbanos.
@@ -177,6 +186,7 @@ Portal oficial del Ayuntamiento de Bilbao con catalogo reutilizable y recursos e
 ### Datos Abiertos de Donostia / San Sebastian
 
 - URL: `https://www.donostia.eus/datosabiertos/catalogo`
+- Tipo: `CKAN`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy util para datos urbanos, demografia, callejero y capas geograficas.
@@ -184,6 +194,7 @@ Portal oficial basado en CKAN con `API /api/3`, recursos CSV, GeoJSON y WMS. Muy
 ### Portal de datos abiertos del Gobierno de Canarias
 
 - URL: `https://datos.canarias.es/catalogos/general/`
+- Tipo: `CKAN`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial con CKAN, seccion de API y miles de recursos en `CSV`, `JSON`, `XML`, `WMS` y otros formatos. Muy util para catalogos, filtros y reutilizacion de datos sectoriales.
@@ -191,6 +202,7 @@ Portal oficial con CKAN, seccion de API y miles de recursos en `CSV`, `JSON`, `X
 ### Abert@s
 
 - URL: `https://abertos.xunta.gal/`
+- Tipo: `Catalogo / REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial de la Xunta de Galicia con catalogo reutilizable y al menos servicios REST claros como transporte publico por carretera. Muy util para datos territoriales, movilidad y recursos sectoriales.
@@ -198,6 +210,7 @@ Portal oficial de la Xunta de Galicia con catalogo reutilizable y al menos servi
 ### Datos Abiertos Ayuntamiento de Malaga
 
 - URL: `https://datosabiertos.malaga.eu/`
+- Tipo: `CKAN`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial basado en CKAN con gran volumen de datos municipales sobre cartografia, movilidad, medio ambiente y servicios urbanos. Muy util para catalogos y datos urbanos.
@@ -209,6 +222,7 @@ Portal oficial basado en CKAN con gran volumen de datos municipales sobre cartog
 ### AEMET OpenData
 
 - URL: `https://www.aemet.es/es/datos_abiertos/AEMET_OpenData`
+- Tipo: `REST`
 ![Acceso: API key](https://img.shields.io/badge/acceso-API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y consumo de datos meteorologicos.
@@ -216,6 +230,7 @@ API REST oficial de AEMET. Muy util para practicar peticiones autenticadas y con
 ### Portus / Oceanografia de Puertos del Estado
 
 - URL: `https://www.puertos.es/es-es/oceanografia/Paginas/portus.aspx`
+- Tipo: `Servicio web`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio institucional abierto con datos y predicciones oceano-meteorologicas del medio marino. Muy util para series temporales, mapas y analisis ambientales.
@@ -227,6 +242,7 @@ Servicio institucional abierto con datos y predicciones oceano-meteorologicas de
 ### Geoportal de Gasolineras
 
 - URL: `https://geoportalgasolineras.es/`
+- Tipo: `Datos abiertos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Datos abiertos sobre estaciones de servicio y precios de carburantes. Muy util para filtros geograficos, comparadores y visualizaciones.
@@ -234,6 +250,7 @@ Datos abiertos sobre estaciones de servicio y precios de carburantes. Muy util p
 ### NAP Transporte API
 
 - URL: `https://nap.transportes.gob.es/api`
+- Tipo: `REST`
 ![Acceso: API key](https://img.shields.io/badge/acceso-API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swagger y permite consultar datasets, operadores, coberturas y recursos de movilidad.
@@ -241,6 +258,7 @@ API oficial del Punto de Acceso Nacional de transporte. Expone documentacion Swa
 ### EMT Open Data / MobilityLabs Madrid
 
 - URL: `https://datos.emtmadrid.es/`
+- Tipo: `REST`
 ![Acceso: Registro / API key](https://img.shields.io/badge/acceso-registro%20%2F%20API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial de EMT Madrid con documentacion y API REST para autobuses, bicimad, aparcamientos y datos de movilidad. Muy util para tiempo real, rutas y aplicaciones urbanas.
@@ -252,6 +270,7 @@ Portal oficial de EMT Madrid con documentacion y API REST para autobuses, bicima
 ### API eSIOS (REE)
 
 - URL: `https://api.esios.ree.es/`
+- Tipo: `REST`
 ![Acceso: Registro](https://img.shields.io/badge/acceso-registro-orange) ![Gratis: Free tier](https://img.shields.io/badge/gratis-free%20tier-yellowgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API de Red Electrica de España. Requiere token personal y ofrece indicadores del sistema electrico.
@@ -263,6 +282,7 @@ API de Red Electrica de España. Requiere token personal y ofrece indicadores de
 ### API JSON / OpenAPI de INEbase
 
 - URL: `https://www.ine.es/dyngs/DAB/es/index.htm?cid=1722`
+- Tipo: `REST / OpenAPI`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 El INE ofrece API JSON y documentacion OpenAPI para consultar tablas, series, metadatos y recursos estadisticos oficiales. Muy util para analisis, filtros y visualizaciones.
@@ -270,6 +290,7 @@ El INE ofrece API JSON y documentacion OpenAPI para consultar tablas, series, me
 ### OpenAPI de Eustat
 
 - URL: `https://es.eustat.eus/openapi/openapi.html`
+- Tipo: `OpenAPI`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practicar consumo de OpenAPI y datos estadisticos territoriales.
@@ -281,6 +302,7 @@ Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practic
 ### Archivo Digital UPM
 
 - URL: `https://oa.upm.es/`
+- Tipo: `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio institucional oficial de la UPM. Expone `OAI-PMH` en `https://oa.upm.es/cgi/oai2?verb=Identify` y canales `RSS` y `Atom`. Muy util para practicar recoleccion de metadatos academicos.
@@ -288,6 +310,7 @@ Repositorio institucional oficial de la UPM. Expone `OAI-PMH` en `https://oa.upm
 ### RUA
 
 - URL: `https://rua.ua.es/`
+- Tipo: `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio institucional oficial de la Universidad de Alicante. Expone `OAI-PMH` en `https://rua.ua.es/server/oai/request?verb=Identify`. Muy util para practicar cosecha de registros, colecciones y metadatos universitarios.
@@ -295,6 +318,7 @@ Repositorio institucional oficial de la Universidad de Alicante. Expone `OAI-PMH
 ### GREDOS
 
 - URL: `https://gredos.usal.es/`
+- Tipo: `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio oficial de la Universidad de Salamanca. Ofrece acceso abierto y endpoint `OAI-PMH` en `https://gredos.usal.es/oai/request?verb=Identify`. Muy util para explorar fondos cientificos, docentes e institucionales.
@@ -302,6 +326,7 @@ Repositorio oficial de la Universidad de Salamanca. Ofrece acceso abierto y endp
 ### DIGIBUG
 
 - URL: `https://digibug.ugr.es/`
+- Tipo: `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio institucional oficial de la Universidad de Granada. Expone `OAI-PMH` en `https://digibug.ugr.es/oai/request?verb=Identify` y feeds `RSS` y `Atom`. Muy util para practica con metadatos, publicaciones y docencia.
@@ -309,6 +334,7 @@ Repositorio institucional oficial de la Universidad de Granada. Expone `OAI-PMH`
 ### UVaDOC
 
 - URL: `https://uvadoc.uva.es/`
+- Tipo: `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio documental oficial de la Universidad de Valladolid. Expone `OAI-PMH` en `https://uvadoc.uva.es/oai/request?verb=Identify` y feed `Atom`. Muy util para practicar catalogacion, cosecha y objetos de aprendizaje.
@@ -320,6 +346,7 @@ Repositorio documental oficial de la Universidad de Valladolid. Expone `OAI-PMH`
 ### España es Cultura: Datos Abiertos
 
 - URL: `https://www.xn--espaaescultura-tnb.es/datos-abiertos.html`
+- Tipo: `OAI-PMH / SPARQL / REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Hub oficial del Ministerio de Cultura con acceso a `OAI-PMH`, `SPARQL`, `API-REST` y `z39.50` para patrimonio cultural digital. Muy util para explorar estandares de intercambio y linked data cultural.
@@ -327,6 +354,7 @@ Hub oficial del Ministerio de Cultura con acceso a `OAI-PMH`, `SPARQL`, `API-RES
 ### Tesauros del Patrimonio Cultural de España
 
 - URL: `http://tesauros.mecd.es/tesauros/sparql`
+- Tipo: `SPARQL`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Endpoint `SPARQL` oficial del Ministerio de Cultura para consultar tesauros y vocabularios patrimoniales en RDF/SKOS. Muy util para linked data, autocompletado semantico y modelado cultural.
@@ -334,6 +362,7 @@ Endpoint `SPARQL` oficial del Ministerio de Cultura para consultar tesauros y vo
 ### Lista de Encabezamientos de Materia para las Bibliotecas Publicas
 
 - URL: `http://id.sgcb.mcu.es/`
+- Tipo: `SPARQL`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Recurso oficial con buscador, descargas y punto `SPARQL` sobre encabezamientos de materia en SKOS. Muy util para catalogacion, linked open data y utilidades de busqueda cultural.
@@ -341,6 +370,7 @@ Recurso oficial con buscador, descargas y punto `SPARQL` sobre encabezamientos d
 ### Biblioteca Virtual de Prensa Historica
 
 - URL: `https://prensahistorica.mcu.es/es/inicio/inicio.do`
+- Tipo: `OAI-PMH / SRU`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Hemeroteca digital oficial con acceso abierto a millones de paginas y enlaces tecnicos a `OAI-PMH` y `SRU`. Muy util para busqueda documental, OCR y proyectos de historia digital.
@@ -352,6 +382,7 @@ Hemeroteca digital oficial con acceso abierto a millones de paginas y enlaces te
 ### API de datos abiertos del BOE
 
 - URL: `https://www.boe.es/datosabiertos/api/api.php`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial para legislacion consolidada, sumarios BOE/BORME y tablas auxiliares. Muy util para practicar busquedas, filtros y datos juridicos.
@@ -359,6 +390,7 @@ API oficial para legislacion consolidada, sumarios BOE/BORME y tablas auxiliares
 ### API REST del BOPV
 
 - URL: `https://opendata.euskadi.eus/api-bopv/?api=bopv`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial de Open Data Euskadi para consultar actos administrativos del Boletin Oficial del Pais Vasco. Util para ejercicios de busqueda y datos normativos regionales.
@@ -370,6 +402,7 @@ API oficial de Open Data Euskadi para consultar actos administrativos del Boleti
 ### CartoCiudad
 
 - URL: `https://www.cartociudad.es/web/portal/documentacion`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio oficial para direcciones, geocodificacion, coordenadas y unidades administrativas. La documentacion publica incluye guias tecnicas y servicios reutilizables.
@@ -377,6 +410,7 @@ Servicio oficial para direcciones, geocodificacion, coordenadas y unidades admin
 ### Sede Electronica del Catastro
 
 - URL: `https://www.sedecatastro.gob.es/`
+- Tipo: `Servicios web`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Incluye buscador y difusion de datos catastrales, cartografia y servicios web. Buena candidata para ejercicios de datos inmobiliarios y mapas.
@@ -384,6 +418,7 @@ Incluye buscador y difusion de datos catastrales, cartografia y servicios web. B
 ### Geoportal IDEE
 
 - URL: `https://www.idee.es/`
+- Tipo: `Geoservicios`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Directorio y catalogos de servicios geoespaciales de España. Muy util para practicar descubrimiento de capas, mapas y metadatos.
@@ -391,6 +426,7 @@ Directorio y catalogos de servicios geoespaciales de España. Muy util para prac
 ### IGN Terremotos
 
 - URL: `https://visualizadores.ign.es/tproximos`
+- Tipo: `GeoJSON`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 El visualizador oficial usa el recurso publico `https://www.ign.es/web/resources/sismologia/tproximos/terremotos.js`, sin autenticacion, con datos tipo GeoJSON embebido para 3, 10 y 30 dias. Muy util para mapas y eventos sismicos, aunque no es una API REST formal.
@@ -398,6 +434,7 @@ El visualizador oficial usa el recurso publico `https://www.ign.es/web/resources
 ### SIGPAC
 
 - URL: `https://sigpac.mapa.gob.es/fega/visor/`
+- Tipo: `WMTS / JSON`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 El visor oficial expone servicios reutilizables claros: configuracion publica en `https://sigpac.mapa.gob.es/fega/visor/cfg/cfg.js`, WMTS en `https://sigpac.mapa.gob.es/sdg/wmts?service=WMTS&request=GetCapabilities` y consultas JSON en `https://sigpac.mapa.gob.es/fega/serviciosvisorsigpac/query/cod_usosigpac`.
@@ -414,6 +451,7 @@ El visor oficial expone servicios reutilizables claros: configuracion publica en
 
 - Pais/Region: Colombia
 - URL: `https://www.datos.gov.co/`
+- Tipo: `Socrata`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal de datos abiertos con acceso JSON y CSV sobre datasets publicos. Util para practicar consumo de endpoints tipo Socrata.
@@ -422,6 +460,7 @@ Portal de datos abiertos con acceso JSON y CSV sobre datasets publicos. Util par
 
 - Pais/Region: Ecuador
 - URL: `https://www.datosabiertos.gob.ec/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial en castellano con catalogo amplio y recursos reutilizables en formatos abiertos como `csv`, `ods` o `xlsx`. Util para catalogos, ETL y limpieza de datos.
@@ -430,6 +469,7 @@ Portal oficial en castellano con catalogo amplio y recursos reutilizables en for
 
 - Pais/Region: Panama
 - URL: `https://www.datosabiertos.gob.pa/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial con datos abiertos de multiples instituciones y formatos reutilizables. Bueno para practicar catalogos, filtros y procesamiento de datasets publicos.
@@ -438,6 +478,7 @@ Portal oficial con datos abiertos de multiples instituciones y formatos reutiliz
 
 - Pais/Region: Paraguay
 - URL: `https://www.datos.gov.py/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial de Paraguay con datasets por temas y guias de uso. Util para practicar descubrimiento de datos, catalogos y consumo de recursos publicos.
@@ -446,6 +487,7 @@ Portal oficial de Paraguay con datasets por temas y guias de uso. Util para prac
 
 - Pais/Region: Chile
 - URL: `https://datos.gob.cl/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal nacional de datos abiertos con conjuntos reutilizables, documentacion y casos de reuso. Muy util para catalogos, filtros y consumo de datos publicos.
@@ -454,6 +496,7 @@ Portal nacional de datos abiertos con conjuntos reutilizables, documentacion y c
 
 - Pais/Region: Uruguay
 - URL: `https://www.gub.uy/datos-abiertos`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Landing oficial que enlaza al Catalogo Nacional de Datos Abiertos de Uruguay y a recursos para desarrolladores. Muy util para catalogos, reutilizacion y datos gubernamentales.
@@ -462,6 +505,7 @@ Landing oficial que enlaza al Catalogo Nacional de Datos Abiertos de Uruguay y a
 
 - Pais/Region: Republica Dominicana
 - URL: `https://datos.gob.do/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial en castellano con catalogo amplio, normativa y formatos abiertos. Muy util para practica con datos gubernamentales y catalogos nacionales.
@@ -474,6 +518,7 @@ Portal oficial en castellano con catalogo amplio, normativa y formatos abiertos.
 
 - Pais/Region: Mexico
 - URL: `https://www.banxico.org.mx/SieAPIRest/service/v1/doc/consultaDatosSerieRango`
+- Tipo: `REST`
 ![Acceso: API key](https://img.shields.io/badge/acceso-API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API del Sistema de Informacion Economica de Banxico. Incluye tipos de cambio, tasas y series historicas.
@@ -482,6 +527,7 @@ API del Sistema de Informacion Economica de Banxico. Incluye tipos de cambio, ta
 
 - Pais/Region: Chile
 - URL: `https://api.cmfchile.cl/`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API de la Comision para el Mercado Financiero de Chile. Ofrece acceso a datos bancarios y reportes historicos.
@@ -490,6 +536,7 @@ API de la Comision para el Mercado Financiero de Chile. Ofrece acceso a datos ba
 
 - Pais/Region: Costa Rica
 - URL: `https://www.bccr.fi.cr/indicadores-economicos/servicio-web`
+- Tipo: `Servicio web`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio oficial del Banco Central de Costa Rica para consultar indicadores economicos. Util para automatizacion de consultas y series de datos financieros.
@@ -498,6 +545,7 @@ Servicio oficial del Banco Central de Costa Rica para consultar indicadores econ
 
 - Pais/Region: Peru
 - URL: `https://estadisticas.bcrp.gob.pe/estadisticas/series/ayuda/api`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial del Banco Central de Reserva del Peru. Permite consultar series estadisticas en `json`, `xml`, `csv` y otros formatos, con filtros por periodo e idioma.
@@ -506,6 +554,7 @@ API oficial del Banco Central de Reserva del Peru. Permite consultar series esta
 
 - Pais/Region: Guatemala
 - URL: `https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?WSDL`
+- Tipo: `SOAP`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de cambio del dia, rangos y monedas. Muy util para practicar XML y servicios SOAP.
@@ -518,6 +567,7 @@ Servicio oficial tipo SOAP/WSDL del Banco de Guatemala para consultar tipo de ca
 
 - Pais/Region: Mexico
 - URL: `https://www.inegi.org.mx/servicios/api_indicadores.html`
+- Tipo: `REST`
 ![Acceso: API key](https://img.shields.io/badge/acceso-API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API util para practicar consultas por indicador, area geografica y series temporales.
@@ -526,6 +576,7 @@ API util para practicar consultas por indicador, area geografica y series tempor
 
 - Pais/Region: Argentina
 - URL: `https://datosgobar.github.io/series-tiempo-ar-api/`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial para consultar indicadores publicos en `json` o `csv`, con filtros temporales, busqueda y transformaciones. Muy util para series temporales y analisis.
@@ -538,6 +589,7 @@ API oficial para consultar indicadores publicos en `json` o `csv`, con filtros t
 
 - Pais/Region: Chile
 - URL: `https://datosabiertos.mineduc.cl/`
+- Tipo: `Datasets`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial del Centro de Estudios del Ministerio de Educacion de Chile. Publica bases de datos educativas en `CSV`, `ZIP` y `RAR`, con series historicas, directorios e indicadores. Muy util para ETL, limpieza y analisis educativo.
@@ -550,6 +602,7 @@ Portal oficial del Centro de Estudios del Ministerio de Educacion de Chile. Publ
 
 - Pais/Region: Argentina
 - URL: `https://www.argentina.gob.ar/cultura/cultura-en-datos`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial de la Secretaria de Cultura de la Nacion con indicadores, mapas y bases de datos culturales. Muy util para analisis cultural, visualizacion y reutilizacion de datos sectoriales.
@@ -558,6 +611,7 @@ Portal oficial de la Secretaria de Cultura de la Nacion con indicadores, mapas y
 
 - Pais/Region: Mexico
 - URL: `https://sic.cultura.gob.mx/`
+- Tipo: `Portal de datos`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Portal oficial de la Secretaria de Cultura con espacios culturales, patrimonio, festivales, creadores y seccion de datos abiertos. Muy util para catalogos culturales, mapas y exploracion territorial.
@@ -570,6 +624,7 @@ Portal oficial de la Secretaria de Cultura con espacios culturales, patrimonio, 
 
 - Pais/Region: Colombia
 - URL: `https://www.datos.gov.co/resource/gt2j-8ykr.json?$limit=1`
+- Tipo: `JSON`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar paginacion, filtros y limpieza de datos.
@@ -582,6 +637,7 @@ Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar pagina
 
 - Pais/Region: Argentina
 - URL: `https://datosgobar.github.io/georef-ar-api/`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial para provincias, municipios, localidades y normalizacion geografica. Muy buena para autocompletado, filtros y mapas.
@@ -590,6 +646,7 @@ API oficial para provincias, municipios, localidades y normalizacion geografica.
 
 - Pais/Region: Argentina
 - URL: `https://servicios.usig.buenosaires.gob.ar/normalizar/`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direcciones y geocodificar resultados basicos en CABA y AMBA. Muy util para buscadores y mapas.
@@ -602,6 +659,7 @@ Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direc
 
 - Pais/Region: Chile
 - URL: `https://api.gael.cloud/general/public/sismos`
+- Tipo: `REST`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: No](https://img.shields.io/badge/oficial-no-8d99ae) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Endpoint publico con documentacion en castellano y limite claro de uso. Util para practicar consumo de eventos sismicos recientes.
