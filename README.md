@@ -628,6 +628,15 @@ Portal oficial de la Unidad de Estadistica Educativa del Ministerio de Educacion
 
 Sistema oficial de informacion geografica de la ANEP de Uruguay. Permite localizar centros, oferta e indicadores educativos en mapas, graficos y tablas. Muy util para geografia educativa, filtros por centro y exploracion territorial.
 
+### Aristas
+
+- Pais/Region: Uruguay
+- URL: [https://www.ineed.edu.uy/bases-de-datos-de-aristas/](https://www.ineed.edu.uy/bases-de-datos-de-aristas/)
+- Tipo: `Datasets`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial del INEEd con bases de datos abiertas de Aristas para primaria y media, con ficheros `csv`, diccionarios y cuestionarios. Muy util para analisis educativo, evaluacion y limpieza de datos.
+
 ---
 
 ### 🏺 Cultura (Latinoamerica)
