@@ -610,6 +610,24 @@ API oficial para consultar indicadores publicos en `json` o `csv`, con filtros t
 
 Portal oficial del Centro de Estudios del Ministerio de Educacion de Chile. Publica bases de datos educativas en `CSV`, `ZIP` y `RAR`, con series historicas, directorios e indicadores. Muy util para ETL, limpieza y analisis educativo.
 
+### ESCALE
+
+- Pais/Region: Peru
+- URL: [https://escale.minedu.gob.pe/web/inicio/padron-de-iiee](https://escale.minedu.gob.pe/web/inicio/padron-de-iiee)
+- Tipo: `Portal de datos / Mapas`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de la Unidad de Estadistica Educativa del Ministerio de Educacion del Peru. Ofrece buscador, mapas, archivo de datos y descarga del padron de servicios educativos. Muy util para directorios, filtros territoriales y analisis educativo.
+
+### SIGANEP
+
+- Pais/Region: Uruguay
+- URL: [https://sig.anep.edu.uy/SIGANEP/Home/Start?nuevo=True](https://sig.anep.edu.uy/SIGANEP/Home/Start?nuevo=True)
+- Tipo: `Geovisor / Mapas`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Sistema oficial de informacion geografica de la ANEP de Uruguay. Permite localizar centros, oferta e indicadores educativos en mapas, graficos y tablas. Muy util para geografia educativa, filtros por centro y exploracion territorial.
+
 ---
 
 ### 🏺 Cultura (Latinoamerica)
