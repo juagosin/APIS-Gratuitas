@@ -139,6 +139,7 @@ Hub oficial que agrupa tableros y consultas educativas nacionales de Argentina. 
 
 - [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-latinoamerica)
 - [Economia y finanzas](#economia-y-finanzas-latinoamerica)
+- [Energia](#energia-latinoamerica)
 - [Estadistica](#estadistica-latinoamerica)
 - [Educacion](#educacion-latinoamerica)
 - [Cultura](#cultura-latinoamerica)
@@ -318,6 +319,22 @@ Portal oficial de EMT Madrid con documentacion y API REST para autobuses, bicima
 
 API de Red Electrica de España. Requiere token personal y ofrece indicadores del sistema electrico.
 
+### OMIE Data / Acceso a ficheros
+
+- URL: [https://www.omie.es/es/file-access-list](https://www.omie.es/es/file-access-list)
+- Tipo: `Ficheros CSV / ZIP`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de OMIE con resultados del mercado electrico y acceso directo a ficheros publicos de precios, programas, curvas, ofertas y liquidaciones. Muy util para practicar series temporales, parsing de ficheros y datos del mercado mayorista.
+
+### Estadisticas de CORES
+
+- URL: [https://www.cores.es/es/estadisticas](https://www.cores.es/es/estadisticas)
+- Tipo: `Series XLS / PDF`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial de CORES con series energeticas actualizadas sobre crudo, refino, productos petroliferos y gas natural, con descargas en `xls` y documentacion metodologica. Muy util para practicar ETL, comparativas historicas y analisis de suministro energetico.
+
 ---
 
 ### 📊 Estadistica (España)
@@ -381,6 +398,22 @@ Repositorio institucional oficial de la Universidad de Granada. Expone `OAI-PMH`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Repositorio documental oficial de la Universidad de Valladolid. Expone `OAI-PMH` en `https://uvadoc.uva.es/oai/request?verb=Identify` y feed `Atom`. Muy util para practicar catalogacion, cosecha y objetos de aprendizaje.
+
+### ADDI
+
+- URL: [https://addi.ehu.es/](https://addi.ehu.es/)
+- Tipo: `OAI-PMH`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la UPV/EHU. Expone `OAI-PMH` en `https://addi.ehu.eus/oai/request?verb=Identify` y organiza fondos de investigacion, docencia y datasets. Muy util para practicar recoleccion de metadatos y consulta de colecciones universitarias.
+
+### RIULL
+
+- URL: [https://riull.ull.es/](https://riull.ull.es/)
+- Tipo: `OAI-PMH`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la Universidad de La Laguna. Expone `OAI-PMH` en `https://riull.ull.es/oai/request?verb=Identify` y feeds `RSS` y `Atom`, con comunidades de docencia, investigacion y revistas. Muy util para practicar cosecha, navegacion por colecciones y metadatos academicos.
 
 ---
 
@@ -622,6 +655,37 @@ API oficial de Presupuesto Abierto de Argentina, enlazada desde datos.gob.ar y p
 
 ---
 
+### ⚡ Energia (Latinoamerica)
+
+### Sistema Unificado de Informacion Energetica
+
+- Pais/Region: Argentina
+- URL: [https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion)
+- Tipo: `Portal de datos / Indicadores`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Hub oficial de la Secretaria de Energia de Argentina con paneles, informacion estadistica y enlaces a `Datos Abiertos`, `SIG` y series sectoriales de hidrocarburos, electricidad, renovables y precios. Muy util para practicar exploracion energetica y reutilizacion de indicadores.
+
+### API Combustibles de la CNE
+
+- Pais/Region: Chile
+- URL: [https://api.cne.cl/](https://api.cne.cl/)
+- Tipo: `REST`
+![Acceso: Registro / API key](https://img.shields.io/badge/acceso-registro%20%2F%20API%20key-orange) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+API oficial de la Comision Nacional de Energia de Chile para datos de bencina, gas y parafina. El acceso completo es gratuito con registro y documentacion para desarrolladores. Muy util para comparadores de precios, mapas y consumo de APIs autenticadas.
+
+### SIM del CENACE
+
+- Pais/Region: Mexico
+- URL: [https://www.cenace.gob.mx/APSIM.aspx](https://www.cenace.gob.mx/APSIM.aspx)
+- Tipo: `Portal de datos / CSV`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Area publica oficial del Sistema de Informacion del Mercado del CENACE. Expone reportes y descargas en `CSV`, `HTML` y `PDF` sobre demanda real, precios marginales, operacion del SEN y mercado electrico mayorista. Muy util para series temporales, analisis de demanda y datos de energia electrica.
+
+---
+
 ### 📊 Estadistica (Latinoamerica)
 
 ### API de Indicadores INEGI
@@ -682,6 +746,24 @@ Sistema oficial de informacion geografica de la ANEP de Uruguay. Permite localiz
 
 Portal oficial del INEEd con bases de datos abiertas de Aristas para primaria y media, con ficheros `csv`, diccionarios y cuestionarios. Muy util para analisis educativo, evaluacion y limpieza de datos.
 
+### SEDICI
+
+- Pais/Region: Argentina
+- URL: [https://sedici.unlp.edu.ar/](https://sedici.unlp.edu.ar/)
+- Tipo: `OAI-PMH`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la Universidad Nacional de La Plata. Expone `OAI-PMH` en `http://sedici.unlp.edu.ar/oai/request?verb=Identify` y agrupa tesis, publicaciones, datasets y recursos educativos abiertos. Muy util para practicar cosecha de metadatos y exploracion de colecciones academicas amplias.
+
+### Repositorio Academico de la Universidad de Chile
+
+- Pais/Region: Chile
+- URL: [https://repositorio.uchile.cl/](https://repositorio.uchile.cl/)
+- Tipo: `OAI-PMH`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio oficial de la Universidad de Chile. Expone `OAI-PMH` en `https://repositorio.uchile.cl/oai/request?verb=Identify` y concentra tesis, articulos, libros y colecciones institucionales. Muy util para practicar recoleccion de registros, filtros por comunidad y catalogacion academica.
+
 ---
 
 ### 🏺 Cultura (Latinoamerica)
@@ -708,14 +790,32 @@ Portal oficial de la Secretaria de Cultura con espacios culturales, patrimonio, 
 
 ### 🩺 Salud (Latinoamerica)
 
-### Dataset COVID-19 Colombia
+### Datos Abiertos Salud
 
-- Pais/Region: Colombia
-- URL: [https://www.datos.gov.co/resource/gt2j-8ykr.json?$limit=1](https://www.datos.gov.co/resource/gt2j-8ykr.json?$limit=1)
-- Tipo: `JSON`
+- Pais/Region: Argentina
+- URL: [https://datos.salud.gob.ar/](https://datos.salud.gob.ar/)
+- Tipo: `Portal de datos / Series`
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
-Ejemplo directo de endpoint JSON en datos.gov.co. Muy util para practicar paginacion, filtros y limpieza de datos.
+Portal oficial del Ministerio de Salud de Argentina con datasets y series en temas como estadisticas vitales, profesionales, medicamentos y registros sanitarios. Muy util para practicar catalogos, ETL y consultas de datos de salud no centrados en COVID.
+
+### Datos Abiertos Direccion General de Epidemiologia
+
+- Pais/Region: Mexico
+- URL: [https://www.gob.mx/salud/documentos/datos-abiertos-152127](https://www.gob.mx/salud/documentos/datos-abiertos-152127)
+- Tipo: `Datasets CSV / ZIP`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Pagina oficial de la Secretaria de Salud de Mexico con descargas abiertas y diccionarios de datos para dengue, enfermedades febriles exantematicas y anuarios de morbilidad. Muy util para practicar limpieza de CSV grandes, analisis epidemiologico y documentacion de campos.
+
+### REUNIS
+
+- Pais/Region: Peru
+- URL: [https://www.minsa.gob.pe/reunis/](https://www.minsa.gob.pe/reunis/)
+- Tipo: `Portal de datos / Tableros`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio oficial del Ministerio de Salud del Peru con tableros y consultas sobre mortalidad, natalidad, establecimientos, recursos humanos, medicamentos y otras prestaciones sanitarias. Muy util para practicar exploracion de indicadores, filtros territoriales y reutilizacion de datos sectoriales vigentes.
 
 ---
 
@@ -751,6 +851,24 @@ Servicio oficial del Gobierno de la Ciudad de Buenos Aires para normalizar direc
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: No](https://img.shields.io/badge/oficial-no-8d99ae) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Endpoint publico con documentacion en castellano y limite claro de uso. Util para practicar consumo de eventos sismicos recientes.
+
+### Monedas Chile (Gael Cloud)
+
+- Pais/Region: Chile
+- URL: [https://api.gael.cloud/general/public/monedas](https://api.gael.cloud/general/public/monedas)
+- Tipo: `REST`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: No](https://img.shields.io/badge/oficial-no-8d99ae) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Endpoint publico con documentacion en castellano para consultar monedas, `UF` y `UTM`, con limite de uso claro. Muy util para practicar consumo de JSON ligero y paneles de valores de referencia.
+
+### Clima Chile (Gael Cloud)
+
+- Pais/Region: Chile
+- URL: [https://api.gael.cloud/general/public/clima](https://api.gael.cloud/general/public/clima)
+- Tipo: `REST`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: No](https://img.shields.io/badge/oficial-no-8d99ae) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Endpoint publico con documentacion en castellano que agrega datos meteorologicos de estaciones chilenas y avisa de rate limiting. Muy util para practicar listados, filtros por estacion y widgets de clima.
 
 ## ⚡ Para empezar rapido
 
