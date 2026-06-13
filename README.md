@@ -94,6 +94,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Transporte](#transporte-espana)
 - [Energia](#energia-espana)
 - [Estadistica](#estadistica-espana)
+- [Educacion](#educacion-espana)
 - [Cultura](#cultura-espana)
 - [Legal](#legal-espana)
 - [Geografia](#geografia-espana)
@@ -103,6 +104,7 @@ Listado curado de APIs y portales reutilizables para practica y aprendizaje.
 - [Gobierno y datos abiertos](#gobierno-y-datos-abiertos-latinoamerica)
 - [Economia y finanzas](#economia-y-finanzas-latinoamerica)
 - [Estadistica](#estadistica-latinoamerica)
+- [Educacion](#educacion-latinoamerica)
 - [Cultura](#cultura-latinoamerica)
 - [Salud](#salud-latinoamerica)
 - [Geografia](#geografia-latinoamerica)
@@ -271,6 +273,45 @@ El INE ofrece API JSON y documentacion OpenAPI para consultar tablas, series, me
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 Documentacion interactiva del Instituto Vasco de Estadistica. Buena para practicar consumo de OpenAPI y datos estadisticos territoriales.
+
+---
+
+### 🎓 Educacion (España)
+
+### Archivo Digital UPM
+
+- URL: `https://oa.upm.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la UPM. Expone `OAI-PMH` en `https://oa.upm.es/cgi/oai2?verb=Identify` y canales `RSS` y `Atom`. Muy util para practicar recoleccion de metadatos academicos.
+
+### RUA
+
+- URL: `https://rua.ua.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la Universidad de Alicante. Expone `OAI-PMH` en `https://rua.ua.es/server/oai/request?verb=Identify`. Muy util para practicar cosecha de registros, colecciones y metadatos universitarios.
+
+### GREDOS
+
+- URL: `https://gredos.usal.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio oficial de la Universidad de Salamanca. Ofrece acceso abierto y endpoint `OAI-PMH` en `https://gredos.usal.es/oai/request?verb=Identify`. Muy util para explorar fondos cientificos, docentes e institucionales.
+
+### DIGIBUG
+
+- URL: `https://digibug.ugr.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio institucional oficial de la Universidad de Granada. Expone `OAI-PMH` en `https://digibug.ugr.es/oai/request?verb=Identify` y feeds `RSS` y `Atom`. Muy util para practica con metadatos, publicaciones y docencia.
+
+### UVaDOC
+
+- URL: `https://uvadoc.uva.es/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Repositorio documental oficial de la Universidad de Valladolid. Expone `OAI-PMH` en `https://uvadoc.uva.es/oai/request?verb=Identify` y feed `Atom`. Muy util para practicar catalogacion, cosecha y objetos de aprendizaje.
 
 ---
 
@@ -488,6 +529,18 @@ API util para practicar consultas por indicador, area geografica y series tempor
 ![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
 
 API oficial para consultar indicadores publicos en `json` o `csv`, con filtros temporales, busqueda y transformaciones. Muy util para series temporales y analisis.
+
+---
+
+### 🎓 Educacion (Latinoamerica)
+
+### Datos Abiertos MINEDUC
+
+- Pais/Region: Chile
+- URL: `https://datosabiertos.mineduc.cl/`
+![Acceso: Publica](https://img.shields.io/badge/acceso-publica-blue) ![Gratis: Si](https://img.shields.io/badge/gratis-si-brightgreen) ![Oficial: Si](https://img.shields.io/badge/oficial-si-006d77) ![Estado: Verificada](https://img.shields.io/badge/estado-verificada-success)
+
+Portal oficial del Centro de Estudios del Ministerio de Educacion de Chile. Publica bases de datos educativas en `CSV`, `ZIP` y `RAR`, con series historicas, directorios e indicadores. Muy util para ETL, limpieza y analisis educativo.
 
 ---
 
