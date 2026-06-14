@@ -78,7 +78,7 @@ Usa `Candidata` si:
 - Evita duplicados.
 - No compliques la estructura sin una razon clara.
 
-Por ahora el proyecto mantiene las APIs en el `README.md` principal. No hace falta proponer separar categorias en archivos distintos salvo que el volumen crezca de verdad.
+Por ahora el proyecto mantiene una portada editorial en `README.md` y el listado principal en `pages/`. No hace falta proponer una estructura mas compleja salvo que el volumen crezca de verdad.
 
 ## Formato recomendado para nuevas filas
 
