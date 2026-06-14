@@ -1,24 +1,26 @@
 ## Resumen
 
--
+- Añado/actualizo ...
 
 ## Tipo de cambio
 
-- [ ] Nueva API
+- [ ] Nueva API o recurso
 - [ ] Correccion de enlace
 - [ ] Ajuste de estado (`Verificada` / `Candidata`)
-- [ ] Mejora de documentacion
-- [ ] Otro
+- [ ] Mejora editorial o de documentacion
 
 ## Verificacion
 
 - [ ] Revise la documentacion oficial o fuente principal
-- [ ] Confirme acceso gratuito o free tier
-- [ ] Revise tipo de acceso: publica, registro o `API key`
-- [ ] Revise idioma de la documentacion
-- [ ] Indique si es oficial o no
-- [ ] Marque la entrada como `Verificada` o `Candidata` segun corresponda
+- [ ] Confirme que el acceso gratuito existe o que el free tier es util
+- [ ] Indique si el acceso es publico, con registro o con `API key`
+- [ ] Revise si la documentacion esta en castellano o incluye castellano
+- [ ] Marque claramente si la fuente es oficial o no
 
 ## Notas
 
--
+- Enlace(s):
+- Pais o region:
+- Categoria:
+- Estado propuesto: `Verificada` / `Candidata`
+- Comentarios adicionales:
